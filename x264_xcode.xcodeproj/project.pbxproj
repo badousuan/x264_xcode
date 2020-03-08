@@ -45,7 +45,6 @@
 		5F099B0620479AFB00E47768 /* select_every.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099A952047965D00E47768 /* select_every.c */; };
 		5F099B0720479AFC00E47768 /* source.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099A972047965D00E47768 /* source.c */; };
 		5F099B0820479AFE00E47768 /* video.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099A992047965D00E47768 /* video.c */; };
-		5F099B0920479B0600E47768 /* avs.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099A9D2047965D00E47768 /* avs.c */; };
 		5F099B0A20479B1100E47768 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099AA02047965D00E47768 /* input.c */; };
 		5F099B0C20479B1700E47768 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099AA42047965D00E47768 /* raw.c */; };
 		5F099B0E20479B1A00E47768 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F099AA82047965D00E47768 /* thread.c */; };
@@ -217,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				5F099A772047965D00E47768 /* example.c */,
-				5F0999872047965D00E47768 /* x264-snapshot-20171228-2245 */,
+				5F0999872047965D00E47768 /* x264 */,
 				5F0999812047960A00E47768 /* Products */,
 				5F099B2320479DC700E47768 /* Frameworks */,
 			);
@@ -232,7 +231,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F0999872047965D00E47768 /* x264-snapshot-20171228-2245 */ = {
+		5F0999872047965D00E47768 /* x264 */ = {
 			isa = PBXGroup;
 			children = (
 				5F09998B2047965D00E47768 /* common */,
@@ -249,7 +248,7 @@
 				5F099ADD2047965D00E47768 /* x264cli.h */,
 				5F099ADE2047965D00E47768 /* x264dll.c */,
 			);
-			path = "x264-snapshot-20171228-2245";
+			path = x264;
 			sourceTree = "<group>";
 		};
 		5F09998B2047965D00E47768 /* common */ = {
@@ -506,7 +505,6 @@
 				5F099AEC20479A4100E47768 /* osdep.c in Sources */,
 				5F099AEF20479A5A00E47768 /* quant.c in Sources */,
 				5F099AF720479AAE00E47768 /* cabac.c in Sources */,
-				5F099B0920479B0600E47768 /* avs.c in Sources */,
 				5F099B1120479B2200E47768 /* flv.c in Sources */,
 				5F099B1220479B2400E47768 /* flv_bytestream.c in Sources */,
 				5F099AF820479AB100E47768 /* cavlc.c in Sources */,
@@ -678,8 +676,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/x264-snapshot-20171228-2245/PrefixHeader.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264-snapshot-20171228-2245\"";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/x264/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -690,8 +688,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/x264-snapshot-20171228-2245/PrefixHeader.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264-snapshot-20171228-2245\"";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/x264/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
