@@ -1,4 +1,7 @@
 [submodule "x264"]
 	path = x264
 	url = https://github.com/badousuan/x264_mirror.git
+	branch = master
+	ignore = all 
+        # ignore = dirty
 	# https://code.videolan.org/videolan/x264.git

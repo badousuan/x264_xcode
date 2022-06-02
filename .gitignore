@@ -24,7 +24,6 @@ x264_xcode.xcodeproj/xcshareddata/*
 .DS_Store
 config.mak
 config.log
-x264
 checkasm
 
 *.264
