@@ -674,7 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/x264/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -686,7 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/x264/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x264\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
